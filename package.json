@@ -1,0 +1,35 @@
+{
+  "name": "jm-bank-mqtt",
+  "version": "0.0.1",
+  "description": "mqtt plugin for jm-bank",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jamma.cn/play/jm-bank-mqtt.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-bank-mqtt"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://git.jamma.cn/play/jm-bank-mqtt/issues"
+  },
+  "homepage": "http://git.jamma.cn/play/jm-bank-mqtt",
+  "devDependencies": {
+    "jm-bank": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jm-log4js": "^1.1.1",
+    "mqtt": "^2.13.0"
+  }
+}
