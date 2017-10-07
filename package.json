@@ -1,6 +1,6 @@
 {
   "name": "jm-bank-mqtt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mqtt plugin for jm-bank",
   "main": "./lib/index",
   "scripts": {
